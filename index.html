@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NovaCart — Home</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <a class="brand" href="./">
+          <span class="logo" aria-hidden="true"></span>
+          <span>NovaCart</span>
+        </a>
+
+        <div class="search" role="search" aria-label="Search">
+          <span class="pill">Ctrl K</span>
+          <input type="search" placeholder="Search products (static demo)" />
+        </div>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="./" aria-current="page">Home</a>
+          <a href="products.html">Products</a>
+          <a href="cart.html">Cart</a>
+          <a href="checkout.html">Checkout</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero__grid">
+          <div class="card hero__copy">
+            <div class="kicker">
+              <span class="tag">New</span>
+              <span><b>Modern</b> static e-commerce UI (HTML + CSS)</span>
+            </div>
+            <h1>Shop faster with a clean, premium storefront.</h1>
+            <p>
+              This is a standalone front-end folder. It’s intentionally not connected to your
+              <code>crm-project</code> APIs or database.
+            </p>
+            <div class="cta">
+              <a class="btn btn--primary" href="products.html">Browse Products</a>
+              <a class="btn" href="product.html">View Product Page</a>
+            </div>
+          </div>
+
+          <div class="card hero__promo">
+            <div class="promo">
+              <div class="promo__top">
+                <div>
+                  <div class="promo__badge">Weekend Drop</div>
+                  <div style="margin-top:8px; color: var(--muted); font-size:13px;">
+                    Wireless Audio • Limited stock (demo)
+                  </div>
+                </div>
+                <div class="price">LKR 24,990</div>
+              </div>
+              <div class="media">
+                <div>
+                  <div style="font-weight:780; font-size:16px;">AeroPods Pro</div>
+                  <small>Gradient placeholder art (no images required)</small>
+                </div>
+              </div>
+              <a class="btn btn--primary" href="cart.html">Add to Cart (Demo)</a>
+              <div class="notice">
+                <b>Note:</b> Buttons are navigational only — no JavaScript/cart logic included.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section__head">
+            <div>
+              <h2>Trending picks</h2>
+              <p>Static cards — replace with your real products later.</p>
+            </div>
+            <a class="btn btn--small" href="products.html">See all</a>
+          </div>
+
+          <div class="grid">
+            <article class="card product">
+              <div class="thumb"><span>Audio</span></div>
+              <div class="product__inner">
+                <h3>AeroPods Pro</h3>
+                <div class="meta">
+                  <span class="rating">★ 4.7</span>
+                  <span>LKR 24,990</span>
+                </div>
+                <div class="product__actions">
+                  <a class="btn btn--small btn--primary" href="product.html">View</a>
+                  <a class="btn btn--small" href="cart.html">Add</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="card product">
+              <div class="thumb"><span>Watches</span></div>
+              <div class="product__inner">
+                <h3>Pulse Smartwatch</h3>
+                <div class="meta">
+                  <span class="rating">★ 4.5</span>
+                  <span>LKR 18,500</span>
+                </div>
+                <div class="product__actions">
+                  <a class="btn btn--small btn--primary" href="product.html">View</a>
+                  <a class="btn btn--small" href="cart.html">Add</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="card product">
+              <div class="thumb"><span>Accessories</span></div>
+              <div class="product__inner">
+                <h3>MagCharge Stand</h3>
+                <div class="meta">
+                  <span class="rating">★ 4.6</span>
+                  <span>LKR 6,990</span>
+                </div>
+                <div class="product__actions">
+                  <a class="btn btn--small btn--primary" href="product.html">View</a>
+                  <a class="btn btn--small" href="cart.html">Add</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div>
+          <div style="font-weight:800; color: var(--text);">NovaCart</div>
+          <div style="font-size:13px;">Static e-commerce demo (HTML + CSS only)</div>
+        </div>
+        <div style="display:flex; gap:14px; flex-wrap:wrap;">
+          <a href="products.html">Products</a>
+          <a href="cart.html">Cart</a>
+          <a href="checkout.html">Checkout</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+

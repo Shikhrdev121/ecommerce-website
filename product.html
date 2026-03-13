@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NovaCart — Product</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <a class="brand" href="./">
+          <span class="logo" aria-hidden="true"></span>
+          <span>NovaCart</span>
+        </a>
+
+        <div class="search" role="search" aria-label="Search">
+          <span class="pill">Ctrl K</span>
+          <input type="search" placeholder="Search products (static demo)" />
+        </div>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="./">Home</a>
+          <a href="products.html">Products</a>
+          <a href="cart.html">Cart</a>
+          <a href="checkout.html">Checkout</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page">
+      <div class="container">
+        <div class="page__title">
+          <div>
+            <h1>AeroPods Pro</h1>
+            <p>Wireless earbuds • Active noise cancelation (demo content)</p>
+          </div>
+          <a class="btn btn--small" href="products.html">← Back to products</a>
+        </div>
+
+        <div class="grid">
+          <section class="card" style="grid-column: span 7; overflow:hidden;">
+            <div class="thumb" style="height:260px;">
+              <span>Image placeholder</span>
+            </div>
+            <div class="panel">
+              <div class="notice">
+                <b>Tip:</b> Replace this placeholder area with a real product gallery later (still can stay HTML/CSS).
+              </div>
+            </div>
+          </section>
+
+          <aside class="card" style="grid-column: span 5;">
+            <div class="panel">
+              <div class="line">
+                <span class="tag">Price</span>
+                <b>LKR 24,990</b>
+              </div>
+              <div class="line">
+                <span class="tag">Rating</span>
+                <b style="color: rgba(255,207,92,.95);">★ 4.7</b>
+              </div>
+              <div class="line">
+                <span class="tag">Delivery</span>
+                <b>2–4 days</b>
+              </div>
+              <div class="line">
+                <span class="tag">Stock</span>
+                <b style="color: var(--ok);">In stock</b>
+              </div>
+
+              <div style="display:grid; gap:10px; margin-top:14px;">
+                <a class="btn btn--primary" href="cart.html">Add to Cart (Demo)</a>
+                <a class="btn" href="checkout.html">Buy Now (Demo)</a>
+              </div>
+            </div>
+          </aside>
+
+          <section class="card" style="grid-column: span 12;">
+            <div class="panel">
+              <div class="section__head" style="margin:0 0 10px;">
+                <div>
+                  <h2 style="margin:0; font-size:18px;">Description</h2>
+                  <p style="margin:0;">Short, readable copy for a clean product page.</p>
+                </div>
+              </div>
+              <div style="color: var(--muted);">
+                AeroPods Pro gives you crisp audio, comfortable fit, and reliable battery life for daily use.
+                This page is static and can later be wired to a backend if you want — but it stays separate for now.
+              </div>
+              <div style="display:grid; gap:8px; margin-top:12px;">
+                <div class="line"><span>Noise cancelation</span><b>Yes</b></div>
+                <div class="line"><span>Battery</span><b>Up to 24h (case)</b></div>
+                <div class="line"><span>Charging</span><b>USB-C</b></div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div>
+          <div style="font-weight:800; color: var(--text);">NovaCart</div>
+          <div style="font-size:13px;">Product details (static)</div>
+        </div>
+        <div style="display:flex; gap:14px; flex-wrap:wrap;">
+          <a href="./">Home</a>
+          <a href="products.html">Products</a>
+          <a href="cart.html">Cart</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
