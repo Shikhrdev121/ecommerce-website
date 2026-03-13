@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NovaCart — Cart</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <a class="brand" href="./">
+          <span class="logo" aria-hidden="true"></span>
+          <span>NovaCart</span>
+        </a>
+
+        <div class="search" role="search" aria-label="Search">
+          <span class="pill">Ctrl K</span>
+          <input type="search" placeholder="Search products (static demo)" />
+        </div>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="./">Home</a>
+          <a href="products.html">Products</a>
+          <a href="cart.html" aria-current="page">Cart</a>
+          <a href="checkout.html">Checkout</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page">
+      <div class="container">
+        <div class="page__title">
+          <div>
+            <h1>Your cart</h1>
+            <p>Static demo cart layout (no JS, no totals calculation).</p>
+          </div>
+          <a class="btn btn--small btn--primary" href="checkout.html">Go to checkout</a>
+        </div>
+
+        <div class="two-col">
+          <section class="card">
+            <div class="panel">
+              <div class="notice">
+                <b>Demo:</b> This page is only UI. If you want real cart logic later, we can add JS or connect to PHP — but it will remain in this folder.
+              </div>
+
+              <div style="margin-top:12px; display:grid; gap:10px;">
+                <div class="card" style="border-radius:16px; box-shadow:none;">
+                  <div class="panel">
+                    <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:12px;">
+                      <div>
+                        <div style="font-weight:800;">AeroPods Pro</div>
+                        <div style="color: var(--muted); font-size:13px;">Qty: 1 • Audio</div>
+                      </div>
+                      <div style="font-weight:800;">LKR 24,990</div>
+                    </div>
+                    <div style="display:flex; gap:10px; margin-top:12px; flex-wrap:wrap;">
+                      <a class="btn btn--small" href="product.html">View</a>
+                      <a class="btn btn--small" href="cart.html">Remove</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card" style="border-radius:16px; box-shadow:none;">
+                  <div class="panel">
+                    <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:12px;">
+                      <div>
+                        <div style="font-weight:800;">MagCharge Stand</div>
+                        <div style="color: var(--muted); font-size:13px;">Qty: 1 • Accessories</div>
+                      </div>
+                      <div style="font-weight:800;">LKR 6,990</div>
+                    </div>
+                    <div style="display:flex; gap:10px; margin-top:12px; flex-wrap:wrap;">
+                      <a class="btn btn--small" href="product.html">View</a>
+                      <a class="btn btn--small" href="cart.html">Remove</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <aside class="card">
+            <div class="panel">
+              <div class="section__head" style="margin:0 0 10px;">
+                <div>
+                  <h2 style="margin:0; font-size:18px;">Order summary</h2>
+                  <p style="margin:0;">Static numbers (demo).</p>
+                </div>
+              </div>
+
+              <div class="line"><span>Subtotal</span><b>LKR 31,980</b></div>
+              <div class="line"><span>Shipping</span><b>LKR 750</b></div>
+              <div class="line"><span>Discount</span><b style="color: var(--warn);">- LKR 0</b></div>
+              <div class="line"><span>Total</span><b>LKR 32,730</b></div>
+
+              <div style="display:grid; gap:10px; margin-top:14px;">
+                <a class="btn btn--primary" href="checkout.html">Checkout</a>
+                <a class="btn" href="products.html">Continue shopping</a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div>
+          <div style="font-weight:800; color: var(--text);">NovaCart</div>
+          <div style="font-size:13px;">Cart (static)</div>
+        </div>
+        <div style="display:flex; gap:14px; flex-wrap:wrap;">
+          <a href="./">Home</a>
+          <a href="products.html">Products</a>
+          <a href="checkout.html">Checkout</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+

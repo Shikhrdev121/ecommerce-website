@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NovaCart — Checkout</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <a class="brand" href="./">
+          <span class="logo" aria-hidden="true"></span>
+          <span>NovaCart</span>
+        </a>
+
+        <div class="search" role="search" aria-label="Search">
+          <span class="pill">Ctrl K</span>
+          <input type="search" placeholder="Search products (static demo)" />
+        </div>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="./">Home</a>
+          <a href="products.html">Products</a>
+          <a href="cart.html">Cart</a>
+          <a href="checkout.html" aria-current="page">Checkout</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page">
+      <div class="container">
+        <div class="page__title">
+          <div>
+            <h1>Checkout</h1>
+            <p>Clean form UI (HTML + CSS only). No submit handler.</p>
+          </div>
+          <a class="btn btn--small" href="cart.html">← Back to cart</a>
+        </div>
+
+        <div class="two-col">
+          <section class="card">
+            <div class="panel">
+              <div class="section__head" style="margin:0 0 10px;">
+                <div>
+                  <h2 style="margin:0; font-size:18px;">Customer details</h2>
+                  <p style="margin:0;">Replace fields as needed.</p>
+                </div>
+              </div>
+
+              <form action="#" method="post">
+                <div style="display:grid; grid-template-columns: 1fr 1fr; gap:10px;">
+                  <div>
+                    <label for="firstName">First name</label>
+                    <input id="firstName" name="firstName" placeholder="Shikhar" />
+                  </div>
+                  <div>
+                    <label for="lastName">Last name</label>
+                    <input id="lastName" name="lastName" placeholder="Singh" />
+                  </div>
+                </div>
+
+                <div>
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="email" placeholder="name@example.com" />
+                </div>
+
+                <div>
+                  <label for="phone">Phone</label>
+                  <input id="phone" name="phone" placeholder="+94 7X XXX XXXX" />
+                </div>
+
+                <div>
+                  <label for="address">Delivery address</label>
+                  <textarea id="address" name="address" placeholder="Street, city, postal code"></textarea>
+                </div>
+
+                <div style="display:grid; grid-template-columns: 1fr 1fr; gap:10px;">
+                  <div>
+                    <label for="payment">Payment method</label>
+                    <select id="payment" name="payment">
+                      <option>Cash on delivery (Demo)</option>
+                      <option>Card (Demo)</option>
+                      <option>Bank transfer (Demo)</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label for="delivery">Delivery slot</label>
+                    <select id="delivery" name="delivery">
+                      <option>Anytime</option>
+                      <option>Morning</option>
+                      <option>Evening</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="notice">
+                  <b>Important:</b> This form doesn’t submit anywhere. If you want PHP processing later, tell me the endpoint name and I’ll wire it in (still inside this folder).
+                </div>
+
+                <button class="btn btn--primary" type="button">Place order (Demo)</button>
+              </form>
+            </div>
+          </section>
+
+          <aside class="card">
+            <div class="panel">
+              <div class="section__head" style="margin:0 0 10px;">
+                <div>
+                  <h2 style="margin:0; font-size:18px;">Total</h2>
+                  <p style="margin:0;">Static summary.</p>
+                </div>
+              </div>
+
+              <div class="line"><span>Items</span><b>2</b></div>
+              <div class="line"><span>Subtotal</span><b>LKR 31,980</b></div>
+              <div class="line"><span>Shipping</span><b>LKR 750</b></div>
+              <div class="line"><span>Grand total</span><b>LKR 32,730</b></div>
+
+              <div style="margin-top:14px;" class="notice">
+                <b>Next step:</b> Want a separate admin panel for products/orders (still separate from CRM)?
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div>
+          <div style="font-weight:800; color: var(--text);">NovaCart</div>
+          <div style="font-size:13px;">Checkout (static)</div>
+        </div>
+        <div style="display:flex; gap:14px; flex-wrap:wrap;">
+          <a href="./">Home</a>
+          <a href="products.html">Products</a>
+          <a href="cart.html">Cart</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
