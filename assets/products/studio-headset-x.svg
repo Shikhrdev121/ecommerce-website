@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Studio Headset X">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c5cff" stop-opacity=".34" />
+      <stop offset="1" stop-color="#6ae4ff" stop-opacity=".26" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="36" fill="url(#bg)" />
+  <g fill="none" stroke="#fff" stroke-opacity=".88" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M250 270v-32c0-102 74-170 150-170s150 68 150 170v32" />
+    <path d="M250 270c0 20-16 36-36 36h-28c-30 0-54-24-54-54v-40c0-30 24-54 54-54h28c20 0 36 16 36 36v140Z" />
+    <path d="M550 270c0 20 16 36 36 36h28c30 0 54-24 54-54v-40c0-30-24-54-54-54h-28c-20 0-36 16-36 36v140Z" />
+    <path d="M520 384c-22 18-54 28-120 28" />
+  </g>
+</svg>

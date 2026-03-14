@@ -187,16 +187,35 @@ a{color:inherit;text-decoration:none}
 .product{grid-column: span 4; overflow:hidden}
 .product__inner{padding:16px}
 .thumb{
+  position:relative;
   height:160px;
+  overflow:hidden;
   border-bottom:1px solid var(--border);
   background:
     linear-gradient(135deg, rgba(106,228,255,.18), rgba(124,92,255,.18)),
     rgba(255,255,255,.04);
-  display:flex;
-  align-items:flex-end;
-  padding:12px 14px;
+}
+.thumb img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+  z-index:0;
+}
+.thumb::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 45%, rgba(0,0,0,.45));
+  z-index:1;
 }
 .thumb span{
+  position:absolute;
+  left:14px;
+  bottom:12px;
+  z-index:2;
   font-size:12px;
   color:rgba(232,238,252,.9);
   border:1px solid rgba(255,255,255,.18);

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Pulse Smartwatch">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6ae4ff" stop-opacity=".26" />
+      <stop offset="1" stop-color="#39d98a" stop-opacity=".20" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="36" fill="url(#bg)" />
+  <g fill="none" stroke="#fff" stroke-opacity=".9" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M330 98h140" />
+    <path d="M330 402h140" />
+    <rect x="280" y="140" width="240" height="220" rx="48" />
+    <path d="M330 252h46l22-46 28 92 22-46h50" />
+  </g>
+</svg>
