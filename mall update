@@ -1,0 +1,9 @@
+[33maa02058[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m version https://git-lfs.github.com/spec/v1
+[33med98480[m checkout.html
+[33m9d81770[m commit -m "Add pull request template"
+[33m696a604[m images add
+[33m5f3eff9[m[33m ([m[1;31mupstream/main[m[33m, [m[1;31mupstream/HEAD[m[33m)[m removed the "Add to Cart" button from the product listing and product detail pages, and also removed the "Cart" link from the navigation bar. This is because we are now using a different approach for adding items to the cart, which does not require a separate cart page. Instead, we will be using a modal window to display the cart contents and allow users to proceed to checkout directly from there.
+[33m4683ee1[m Add files via upload
+[33m180cf60[m Update index.html
+[33m9f95533[m Add files via upload
+[33m9ba8503[m Initial commit
