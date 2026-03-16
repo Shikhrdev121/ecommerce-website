@@ -207,6 +207,16 @@ a{color:inherit;text-decoration:none}
   object-fit:cover;
   display:block;
 }
+.thumb--image{
+  position:relative;
+  overflow:hidden;
+}
+.thumb--image span{
+  position:absolute;
+  left:14px;
+  bottom:12px;
+  pointer-events:none;
+}
 .thumb span{
   font-size:12px;
   color:rgba(232,238,252,.9);
@@ -339,5 +349,6 @@ code{
   .hero h1{font-size:32px}
   .search{display:none}
 }
+
 
 
